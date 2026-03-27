@@ -9,8 +9,7 @@ import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int i = 1;
+        int i = 0;
         List<String> cities = List.of("London", "Paris", "Berlin", "Tokyo", "Moscow");
         List<String> temp = List.of("11.2", "22.5", "4.2", "4.9", "33");
         Random random = new Random();
